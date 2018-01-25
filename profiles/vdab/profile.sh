@@ -24,10 +24,10 @@ alias git="git -c user.name=$GIT_USER_NAME -c user.email=$GIT_USER_EMAIL"
 
 ## Maven
 alias mvn="mvn --settings $VDAB_PROFILE_HOME/maven/settings.xml"
-alias mvncis="mvnci -DskipUnittests -DskipIntegrationtests"
-alias mvncisu="mvnci -DskipUnittests"
-alias mvncisi="mvnci -DskipIntegrationtests"
-alias mvncisdb="mvncis -Pdb_init"
+alias mvncisu="mvnci -DskipUnittests -DskipSql"
+alias mvncisi="mvnci -DskipIntegrationtests -DskipSql"
+alias mvncis="mvnci -DskipUnittests -DskipIntegrationtests -DskipSql"
+alias mvncisdb="mvnci -DskipUnittests -DskipIntegrationtests -Pdb_init"
 
 ## Npm
 alias npm="npm --userconfig $VDAB_PROFILE_HOME/npm/.npmrc"
