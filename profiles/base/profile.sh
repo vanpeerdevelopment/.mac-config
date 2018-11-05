@@ -8,6 +8,6 @@ export BASE_PROFILE_HOME="$PROFILES_HOME/base"
 
 # Execution
 ## Docker
-alias docker-rm="source $BASE_PROFILE_HOME/docker/rm.sh"
-alias docker-rmi="source $BASE_PROFILE_HOME/docker/rmi.sh"
+alias docker-rm='docker rm -vf $(docker ps -qa)'
+alias docker-rmi='docker rmi -f $(docker images -qa)'
 alias start-oracle="source $BASE_PROFILE_HOME/docker/start-oracle.sh"
