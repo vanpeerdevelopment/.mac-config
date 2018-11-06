@@ -21,3 +21,11 @@ alias reload-profile="source $SPARKCENTRAL_PROFILE"
 
 ## Git
 alias git="git -c user.name=$GIT_USER_NAME -c user.email=$GIT_USER_EMAIL"
+
+## Gradle
+alias grcu="./gradlew cU"
+alias grcd="./gradlew cD"
+alias grcdu="./gradlew cD cU"
+alias grb="./gradlew cD build"
+alias grcb="./gradlew cD clean build"
+alias grsa="./gradlew spotlessApply"
