@@ -16,8 +16,5 @@ export GIT_USER_EMAIL="dieter.vanpeer@kunlabora.be"
 
 
 # Execution
-## Profile
-alias reload-profile="source $KUNLABORA_PROFILE"
-
 ## Git
 alias git="git -c user.name=$GIT_USER_NAME -c user.email=$GIT_USER_EMAIL"

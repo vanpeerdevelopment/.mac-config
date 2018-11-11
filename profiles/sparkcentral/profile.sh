@@ -16,9 +16,6 @@ export GIT_USER_EMAIL="dieter.v@sparkcentral.com"
 
 
 # Execution
-## Profile
-alias reload-profile="source $SPARKCENTRAL_PROFILE"
-
 ## Git
 alias git="git -c user.name=$GIT_USER_NAME -c user.email=$GIT_USER_EMAIL"
 
