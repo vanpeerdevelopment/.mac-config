@@ -16,6 +16,11 @@ export GIT_USER_EMAIL="dieter.v@sparkcentral.com"
 
 
 # Execution
+## eng-tools
+export ENG_TOOL_DIR="/Users/dietervp/Projects/sparkcentral/eng-tools"
+export PATH="$ENG_TOOL_DIR/bin:$PATH"
+source "$ENG_TOOL_DIR/src/.profilerc"
+
 ## Git
 alias git="git -c user.name=$GIT_USER_NAME -c user.email=$GIT_USER_EMAIL"
 
