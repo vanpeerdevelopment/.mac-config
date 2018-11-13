@@ -42,3 +42,4 @@ For each profile adapt user configuration in `profile.sh` and:
 #### oh-my-zsh
 - `ZSH_CUSTOM=<MAC_CONFIG>/zsh`: use custom zsh folder
 - `ZSH_THEME="powerlevel9k/powerlevel9k"`: configure [powerlevel9k theme](https://github.com/bhilburn/powerlevel9k)
+- `plugins=(zsh-autosuggestions)`: use plugins
