@@ -2,7 +2,8 @@
 
 # Configuration
 ## General
-export PROFILES_HOME="$(dirname $0)/.."
+export MAC_CONFIG_HOME="$(dirname $0)/../.."
+export PROFILES_HOME="$MAC_CONFIG_HOME/profiles"
 export BASE_PROFILE_HOME="$PROFILES_HOME/base"
 export BASE_PROFILE="$BASE_PROFILE_HOME/profile.sh"
 export CURRENT_PROFILE="$BASE_PROFILE"
@@ -11,6 +12,13 @@ export CURRENT_PROFILE="$BASE_PROFILE"
 # Execution
 ## Profile
 alias reload-profile='source $CURRENT_PROFILE'
+
+## oh-my-zsh
+function add-custom-plugin() {
+    pushd $MAC_CONFIG_HOME/zsh/plugins
+    git submodule add $1
+    popd
+}
 
 ## Docker
 alias docker-rm='docker rm -vf $(docker ps -qa)'
