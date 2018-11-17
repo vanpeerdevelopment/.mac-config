@@ -42,7 +42,7 @@ For each profile adapt user configuration in `profile.sh` and:
 #### oh-my-zsh
 ###### [Customizations](https://github.com/robbyrussell/oh-my-zsh/wiki/Customization)
 - `ZSH_CUSTOM=<MAC_CONFIG>/zsh`: custom oh-my-zsh's directory, whatever you place inside of it will take precedence over the built-in configuration
-- `<MAC_CONFIG>/zsh/*.zsg`: add functionality without adapting `~/.zshrc`, files will be automatically loaded by the init script, in alphabetical order
+- `<MAC_CONFIG>/zsh/*.zsh`: add functionality without adapting `~/.zshrc`, files will be automatically loaded by the init script, in alphabetical order
 - `<MAC_CONFIG>/zsh/plugins`: [custom plugins](https://github.com/robbyrussell/oh-my-zsh/wiki/Customization#overriding-and-adding-plugins) can be added as a [git submodule](https://blog.github.com/2016-02-01-working-with-submodules/) here
 - `<MAC_CONFIG>/zsh/themes`: [custom themes](https://github.com/robbyrussell/oh-my-zsh/wiki/Customization#overriding-and-adding-themes) can be added as a [git submodule](https://blog.github.com/2016-02-01-working-with-submodules/) here
 - `<MAC_CONFIG>/zsh/lib`: [override internals](https://github.com/robbyrussell/oh-my-zsh/wiki/Customization#overriding-internals): individual functions or even entire files
