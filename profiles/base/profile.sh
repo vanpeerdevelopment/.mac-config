@@ -15,4 +15,8 @@ alias reload-profile='source $CURRENT_PROFILE'
 ## Docker
 alias docker-rm='docker rm -vf $(docker ps -qa)'
 alias docker-rmi='docker rmi -f $(docker images -qa)'
-alias start-oracle="source $BASE_PROFILE_HOME/docker/start-oracle.sh"
+
+function start-oracle() {
+    docker rm -vf oracle-xe-11g
+    docker run -d -p 1521:1521 --name oracle-xe-11g vanpeerdevelopment/oracle-xe-11g
+}
