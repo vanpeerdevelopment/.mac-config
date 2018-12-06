@@ -13,6 +13,9 @@ export CURRENT_PROFILE="$BASE_PROFILE"
 ## Profile
 alias reload-profile='source $CURRENT_PROFILE'
 
+# General
+alias cls='clear'
+
 ## oh-my-zsh
 function add-custom-plugin() {
     pushd $MAC_CONFIG_HOME/zsh/plugins

@@ -32,3 +32,12 @@ alias grb="./gradlew cD build"
 alias grcb="./gradlew cD clean build"
 alias grsa="./gradlew spotlessApply"
 alias grun="./gradlew cD cU run"
+
+## MySQL
+function mysqldump-local() {
+    mysqldump --user=$2 -p --host=127.0.0.1 --port=3306 $1 > $3
+}
+
+function mysqlimport-local() {
+    pv $3 | mysql --user=$2 -p --host=127.0.0.1 --port=3306 $1
+}
