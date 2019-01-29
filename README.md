@@ -31,6 +31,7 @@ For each profile adapt user configuration in `profile.sh` and:
     - Name: profile name
     - Shortcut key
     - Send text at start: `source <MAC_CONFIG>/profiles/<NAME>/profile.sh`
+    - Directory: `~/Projects/<profile>`
 - Colors: solarized dark (TODO)
 - Text: 14pt Source Code Pro for Powerline (TODO)
 - Window
