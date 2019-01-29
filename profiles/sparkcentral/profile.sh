@@ -11,7 +11,7 @@ export SPARKCENTRAL_PROFILE="$SPARKCENTRAL_PROFILE_HOME/profile.sh"
 export CURRENT_PROFILE="$SPARKCENTRAL_PROFILE"
 
 ## User
-export GIT_USER_NAME="dieterv_sc"
+export GIT_USER_NAME="dietervp"
 export GIT_USER_EMAIL="dieter.v@sparkcentral.com"
 
 
