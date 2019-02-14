@@ -32,8 +32,10 @@ For each profile adapt user configuration in `profile.sh` and:
     - Shortcut key
     - Send text at start: `source <MAC_CONFIG>/profiles/<NAME>/profile.sh`
     - Directory: `~/Projects/<profile>`
-- Colors: solarized dark (TODO)
-- Text: 14pt Source Code Pro for Powerline (TODO)
+- Colors: solarized dark
+- Text: 
+    - [Font](https://github.com/ryanoasis/nerd-fonts): 14pt Hack Regular Nerd Font Complete
+    - Use [font](https://github.com/ryanoasis/nerd-fonts) for non-ASCII text: 14pt Hack Regular Nerd Font Complete  
 - Window
     - Preserve profile name in tab title 
 - Keys
@@ -52,6 +54,7 @@ For each profile adapt user configuration in `profile.sh` and:
 - `<MAC_CONFIG>/zsh/lib`: [override internals](https://github.com/robbyrussell/oh-my-zsh/wiki/Customization#overriding-internals): individual functions or even entire files
 
 ###### Theme
+- `POWERLEVEL9K_MODE='nerdfont-complete'`
 - `ZSH_THEME="powerlevel9k/powerlevel9k"`
 - [powerlevel9k theme](https://github.com/bhilburn/powerlevel9k)
 
