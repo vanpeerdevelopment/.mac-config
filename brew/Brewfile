@@ -1,0 +1,42 @@
+# Taps
+tap "homebrew/core"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
+tap "caskroom/fonts"
+
+## Base
+brew "zsh"
+brew "pv"
+brew "telnet"
+brew "jenv"
+brew "git"
+brew "awscli"
+brew "gradle"
+brew "maven"
+cask "vlc"
+cask "whatsapp"
+cask "slack"
+cask "zoomus"
+cask "google-chrome"
+cask "clipy"
+cask "caskroom/fonts/font-hack-nerd-font"
+cask "iterm2"
+cask "ngrok"
+cask "postman"
+cask "java"
+cask "java8"
+cask "docker"
+cask "intellij-idea"
+
+## Home
+brew "certbot"
+
+## Sparkcentral
+brew "bash-completion"
+brew "cassandra"
+brew "kafka"
+brew "kubernetes-cli"
+brew "mysql@5.7", link: true
+brew "redis"
+cask "tunnelblick"

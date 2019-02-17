@@ -9,10 +9,17 @@ Overview of the tools installed on my mac, several terminal profiles and useful 
 
 
 ## Installation
-- `git clone --recursive git@github.com:vanpeerdevelopment/.mac-config.git <MAC_CONFIG>`
+- `git clone --recursive git@github.com:vanpeerdevelopment/.mac-config.git <MAC_CONFIG>` 
 
 
 ## Configuration
+#### HomeBrew
+- Install all HomeBrew binaries and apps by running `brew bundle` in `<MAC_CONFIG>/brew`
+- [Brewfile](https://github.com/Homebrew/homebrew-bundle)
+- [Homebrew Cask](https://github.com/Homebrew/homebrew-cask)
+- [Manage homebrew services](https://github.com/Homebrew/homebrew-services)
+- [Mac App Store CLI](https://github.com/mas-cli/mas)
+
 #### iTerm2
 ###### General
 - Quit when all windows are closed: true
