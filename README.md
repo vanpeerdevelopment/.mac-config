@@ -3,6 +3,7 @@ Overview of the tools installed on my mac, several terminal profiles and useful 
 
 ## Prerequisites
 - [Homebrew](https://brew.sh/)
+- [Python](https://brew.sh/)
 - [iTerm2](https://www.iterm2.com/)
 - [zsh](http://www.zsh.org/)
 - [oh-my-zsh](https://ohmyz.sh/)
@@ -14,11 +15,14 @@ Overview of the tools installed on my mac, several terminal profiles and useful 
 
 ## Configuration
 #### HomeBrew
-- Install all HomeBrew binaries and apps by running `brew bundle` in `<MAC_CONFIG>/brew`
+- Install all HomeBrew binaries and apps by running `brew bundle` in `<MAC_CONFIG>/homebrew`
 - [Brewfile](https://github.com/Homebrew/homebrew-bundle)
 - [Homebrew Cask](https://github.com/Homebrew/homebrew-cask)
 - [Manage homebrew services](https://github.com/Homebrew/homebrew-services)
 - [Mac App Store CLI](https://github.com/mas-cli/mas)
+
+#### Python
+- To install all python dependencies run `pip3 install -r <MAC_CONFIG>/python/requirements.txt`
 
 #### iTerm2
 ###### General

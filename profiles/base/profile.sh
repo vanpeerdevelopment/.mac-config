@@ -7,6 +7,7 @@ export PROFILES_HOME="$MAC_CONFIG_HOME/profiles"
 export BASE_PROFILE_HOME="$PROFILES_HOME/base"
 export BASE_PROFILE="$BASE_PROFILE_HOME/profile.sh"
 export CURRENT_PROFILE="$BASE_PROFILE"
+export PATH="$MAC_CONFIG_HOME/bin:$PATH"
 
 
 # Execution
