@@ -10,7 +10,8 @@ Overview of the tools installed on my mac, several terminal profiles and useful 
 
 
 ## Installation
-- `git clone --recursive git@github.com:vanpeerdevelopment/.mac-config.git <MAC_CONFIG>` 
+- `git clone --recursive git@github.com:vanpeerdevelopment/.mac-config.git <MAC_CONFIG>`
+- [Install sdkman](https://sdkman.io/install) 
 
 
 ## Configuration
@@ -70,7 +71,7 @@ For each profile adapt user configuration in `profile.sh` and:
 - [powerlevel9k theme](https://github.com/bhilburn/powerlevel9k)
 
 ###### Plugins
-- `plugins=(zsh-completions, zsh-syntax-highlighting zsh-autosuggestions)`
+- `plugins=(zsh-completions, zsh-syntax-highlighting zsh-autosuggestions zsh-nvm)`
 - [zsh-completions](https://github.com/zsh-users/zsh-completions)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)

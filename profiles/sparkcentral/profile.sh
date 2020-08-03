@@ -13,12 +13,13 @@ export CURRENT_PROFILE="$SPARKCENTRAL_PROFILE"
 ## User
 export GIT_USER_NAME="dietervp"
 export GIT_USER_EMAIL="dieter.v@sparkcentral.com"
+export _SC_VAULT_TOKEN="..."
 
 
 # Execution
 ## eng-tools
 export ENG_TOOL_DIR="/Users/dietervp/Projects/sparkcentral/eng-tools"
-export PATH="$ENG_TOOL_DIR/bin:$PATH"
+export PATH="$HOME/go/bin:$ENG_TOOL_DIR/bin:$PATH"
 source "$ENG_TOOL_DIR/src/.profilerc"
 
 ## Git
