@@ -28,6 +28,15 @@ function add-custom-plugin() {
 alias docker-rm='docker rm -vf $(docker ps -qa)'
 alias docker-rmi='docker rmi -f $(docker images -qa)'
 
+## Gradle
+alias grcu="./gradlew cU"
+alias grcd="./gradlew cD"
+alias grcdu="./gradlew cD cU"
+alias grb="./gradlew cD build"
+alias grcb="./gradlew cD clean build"
+alias grsa="./gradlew spotlessApply"
+alias grun="./gradlew cD cU run"
+
 function start-oracle() {
     docker rm -vf oracle-xe-11g
     docker run -d -p 1521:1521 --name oracle-xe-11g vanpeerdevelopment/oracle-xe-11g

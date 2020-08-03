@@ -37,20 +37,6 @@ cask "httpie"
 ## Home
 brew "certbot"
 
-## Sparkcentral
-brew "bash-completion"
-brew "aws-iam-authenticator"
-brew "cassandra"
-brew "kafka"
-brew "kubernetes-cli"
-brew "sops"
-# TODO: add brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/b196924abf02be1b43bcfbe5d023a72882648943/Formula/kubernetes-helm.rb
-brew "mysql@5.7", link: true
-brew "redis"
-brew "jmeter"
-brew "golang"
-cask "tunnelblick"
-
 ## Digipolis
 brew "scrcpy"
 brew "android-platform-tools"
