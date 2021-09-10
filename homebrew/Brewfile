@@ -1,42 +1,50 @@
-# Taps
+## Taps
 tap "homebrew/core"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "caskroom/fonts"
 
-## Base
+## Terminal
 brew "zsh"
+cask "iterm2"
+cask "caskroom/fonts/font-hack-nerd-font"
 brew "pv"
-brew "telnet"
-brew "git"
-brew "awscli"
-brew "gradle"
-brew "maven"
 brew "mas"
-brew "python"
 brew "jq"
+brew "telnet"
 brew "m-cli"
 brew "watch"
+brew "bash-completion"
+cask "httpie"
+
+## General
+cask "google-chrome"
+cask "amethyst"
+cask "clipy"
+
+## Developer tools
+cask "jetbrains-toolbox"
+brew "git"
+brew "awscli"
+cask "aws-vault"
+brew "gradle"
+brew "maven"
+cask "docker"
+cask "ngrok"
+cask "sequel-pro"
+cask "tableplus"
+cask "tfenv"
 brew "adr-tools"
-cask "vlc"
+brew "certbot"
+
+## Social
 cask "whatsapp"
 cask "slack"
 cask "zoomus"
-cask "google-chrome"
-cask "clipy"
-cask "caskroom/fonts/font-hack-nerd-font"
-cask "iterm2"
-cask "ngrok"
-cask "postman"
-cask "docker"
-cask "intellij-idea"
-cask "mat"
-cask "httpie"
+cask "microsoft-teams"
+cask "miro"
 
-## Home
-brew "certbot"
-
-## Digipolis
-brew "scrcpy"
-brew "android-platform-tools"
+## Entertainment
+cask "vlc"
+cask "zwift"

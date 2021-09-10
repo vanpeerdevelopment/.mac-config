@@ -1,16 +1,15 @@
 # .mac-config
 Overview of the tools installed on my mac, several terminal profiles and useful aliases
 
-## Prerequisites
-- [Homebrew](https://brew.sh/)
-- [Python](https://brew.sh/)
-- [iTerm2](https://www.iterm2.com/)
-- [zsh](http://www.zsh.org/)
-- [oh-my-zsh](https://ohmyz.sh/)
-
-
 ## Installation
+- [Install Homebrew](https://brew.sh/)
+- [Install iTerm2](https://www.iterm2.com/): `brew cask install iterm2`
+- [Install zsh](http://www.zsh.org/): `brew install zsh`
+- [Install oh-my-zsh](https://ohmyz.sh/)
+- Install Git: `brew install git`
 - `git clone --recursive git@github.com:vanpeerdevelopment/.mac-config.git <MAC_CONFIG>`
+
+
 - [Install sdkman](https://sdkman.io/install) 
 
 
