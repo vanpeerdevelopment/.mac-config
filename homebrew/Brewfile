@@ -3,12 +3,12 @@ tap "homebrew/core"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
-tap "caskroom/fonts"
+tap "homebrew/cask-fonts"
 
 ## Terminal
 brew "zsh"
 cask "iterm2"
-cask "caskroom/fonts/font-hack-nerd-font"
+cask "font-hack-nerd-font"
 brew "pv"
 brew "mas"
 brew "jq"
@@ -16,7 +16,6 @@ brew "telnet"
 brew "m-cli"
 brew "watch"
 brew "bash-completion"
-cask "httpie"
 
 ## General
 cask "google-chrome"
@@ -41,7 +40,7 @@ brew "certbot"
 ## Social
 cask "whatsapp"
 cask "slack"
-cask "zoomus"
+cask "zoom"
 cask "microsoft-teams"
 cask "miro"
 
