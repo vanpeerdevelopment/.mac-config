@@ -10,7 +10,7 @@ Overview of the tools installed on my mac, several terminal profiles and useful 
 - `git clone --recursive git@github.com:vanpeerdevelopment/.mac-config.git <MAC_CONFIG>`
 
 
-- [Install sdkman](https://sdkman.io/install) 
+- Install asdf: `git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.10.1` 
 
 
 ## Configuration
