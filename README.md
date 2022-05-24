@@ -55,8 +55,6 @@ For each profile adapt user configuration in `profile.sh` and:
     
 #### oh-my-zsh
 ###### Environment variables (.zshrc)
-- `export NVM_AUTO_USE=true`: enable auto use nvm version in .nvmrc files
-
 ###### [Customizations](https://github.com/robbyrussell/oh-my-zsh/wiki/Customization)
 - `ZSH_CUSTOM=<MAC_CONFIG>/zsh`: custom oh-my-zsh's directory, whatever you place inside of it will take precedence over the built-in configuration
 - `<MAC_CONFIG>/zsh/*.zsh`: add functionality without adapting `~/.zshrc`, files will be automatically loaded by the init script, in alphabetical order
@@ -70,7 +68,7 @@ For each profile adapt user configuration in `profile.sh` and:
 - [powerlevel9k theme](https://github.com/bhilburn/powerlevel9k)
 
 ###### Plugins
-- `plugins=(zsh-completions zsh-syntax-highlighting zsh-autosuggestions zsh-nvm)`
+- `plugins=(zsh-completions zsh-syntax-highlighting zsh-autosuggestions)`
 - [zsh-completions](https://github.com/zsh-users/zsh-completions)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
