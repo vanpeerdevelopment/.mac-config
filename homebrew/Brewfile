@@ -2,19 +2,9 @@
 tap "homebrew/core"
 tap "homebrew/bundle"
 tap "homebrew/cask"
-tap "homebrew/cask-versions"
-tap "homebrew/cask-fonts"
 
 ## Terminal
 brew "zsh"
-cask "iterm2"
-cask "font-hack-nerd-font"
-brew "pv"
-brew "mas"
-brew "jq"
-brew "telnet"
-brew "m-cli"
-brew "watch"
 brew "bash-completion"
 
 ## General
@@ -24,20 +14,6 @@ cask "amethyst"
 brew "git"
 brew "awscli"
 cask "aws-vault"
-brew "gradle"
-brew "maven"
-cask "ngrok"
-cask "sequel-pro"
-cask "tableplus"
-cask "tfenv"
-brew "adr-tools"
-brew "certbot"
-
-## Social
-cask "whatsapp"
-cask "slack"
-cask "zoom"
 
 ## Entertainment
-cask "vlc"
 cask "zwift"
