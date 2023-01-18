@@ -18,18 +18,14 @@ brew "watch"
 brew "bash-completion"
 
 ## General
-cask "google-chrome"
 cask "amethyst"
-cask "clipy"
 
 ## Developer tools
-cask "jetbrains-toolbox"
 brew "git"
 brew "awscli"
 cask "aws-vault"
 brew "gradle"
 brew "maven"
-cask "docker"
 cask "ngrok"
 cask "sequel-pro"
 cask "tableplus"
@@ -41,8 +37,6 @@ brew "certbot"
 cask "whatsapp"
 cask "slack"
 cask "zoom"
-cask "microsoft-teams"
-cask "miro"
 
 ## Entertainment
 cask "vlc"
