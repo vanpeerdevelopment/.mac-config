@@ -3,14 +3,11 @@ Overview of the tools installed on my mac, several terminal profiles and useful 
 
 ## Installation
 - [Install Homebrew](https://brew.sh/)
-- [Install iTerm2](https://www.iterm2.com/): `brew cask install iterm2`
+- [Install Git](https://git-scm.com/): `brew install git`
 - [Install zsh](http://www.zsh.org/): `brew install zsh`
 - [Install oh-my-zsh](https://ohmyz.sh/)
-- Install Git: `brew install git`
+- [Install asdf](https://asdf-vm.com/guide/getting-started.html)
 - `git clone --recursive git@github.com:vanpeerdevelopment/.mac-config.git <MAC_CONFIG>`
-
-
-- Install asdf: `git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.10.1` 
 
 
 ## Configuration
@@ -23,35 +20,6 @@ Overview of the tools installed on my mac, several terminal profiles and useful 
 
 #### Python
 - To install all python dependencies run `pip3 install -r <MAC_CONFIG>/python/requirements.txt`
-
-#### iTerm2
-###### General
-- Quit when all windows are closed: true
-- Check for updates automatically: false
-
-###### Appearance
-- Theme: Dark (high contrast)
-- Show tab bar even when there is only one tab: true
-- Show tab numbers: false
-- Show tab bar in fullscreen: true
-- Show profile name: true
- 
-###### Profiles
-For each profile adapt user configuration in `profile.sh` and:
-- General
-    - Name: profile name
-    - Shortcut key
-    - Send text at start: `source <MAC_CONFIG>/profiles/<NAME>/profile.sh`
-    - Directory: `~/Projects/<profile>`
-- Colors: solarized dark
-- Text: 
-    - [Font](https://github.com/ryanoasis/nerd-fonts): 14pt Hack Regular Nerd Font Complete
-    - Use [font](https://github.com/ryanoasis/nerd-fonts) for non-ASCII text: 14pt Hack Regular Nerd Font Complete  
-- Window
-    - Preserve profile name in tab title 
-- Keys
-    - Load preset: natural text editing to enable word jump, deletion, ...
-    
     
 #### oh-my-zsh
 ###### Environment variables (.zshrc)
