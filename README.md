@@ -30,11 +30,6 @@ Overview of the tools installed on my mac, several terminal profiles and useful 
 - `<MAC_CONFIG>/zsh/themes`: [custom themes](https://github.com/robbyrussell/oh-my-zsh/wiki/Customization#overriding-and-adding-themes) can be added as a [git submodule](https://blog.github.com/2016-02-01-working-with-submodules/) here
 - `<MAC_CONFIG>/zsh/lib`: [override internals](https://github.com/robbyrussell/oh-my-zsh/wiki/Customization#overriding-internals): individual functions or even entire files
 
-###### Theme
-- `POWERLEVEL9K_MODE='nerdfont-complete'`
-- `ZSH_THEME="powerlevel9k/powerlevel9k"`
-- [powerlevel9k theme](https://github.com/bhilburn/powerlevel9k)
-
 ###### Plugins
 - `plugins=(zsh-completions zsh-syntax-highlighting zsh-autosuggestions)`
 - [zsh-completions](https://github.com/zsh-users/zsh-completions)
