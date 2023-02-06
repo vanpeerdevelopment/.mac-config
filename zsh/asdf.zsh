@@ -9,7 +9,7 @@ asdf global java temurin-17.0.5+8
 
 # node plugin
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git 2>/dev/null
-asdf global nodejs 18.13.0
+asdf global nodejs 18.14.0
 
 # initialise completions
 fpath=(${ASDF_DIR}/completions $fpath)
