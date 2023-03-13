@@ -35,3 +35,6 @@ Overview of the tools installed on my mac, several terminal profiles and useful 
 - [zsh-completions](https://github.com/zsh-users/zsh-completions)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+
+#### SSH
+- [Add ssh keys to GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
