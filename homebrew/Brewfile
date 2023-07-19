@@ -13,8 +13,9 @@ cask "amethyst"
 ## Developer tools
 brew "git"
 brew "awscli"
-cask "aws-vault"
 brew "git-remote-codecommit"
+cask "aws-vault"
+cask "session-manager-plugin"
 
 ## Entertainment
 cask "zwift"
