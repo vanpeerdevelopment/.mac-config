@@ -8,7 +8,7 @@ brew "zsh"
 brew "bash-completion"
 
 ## General
-cask "amethyst"
+cask "raycast"
 
 ## Developer tools
 brew "git"
