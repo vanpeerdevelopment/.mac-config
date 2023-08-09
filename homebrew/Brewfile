@@ -14,6 +14,7 @@ cask "raycast"
 brew "git"
 brew "awscli"
 brew "git-remote-codecommit"
+brew "bitwarden-cli"
 cask "aws-vault"
 cask "session-manager-plugin"
 
