@@ -16,11 +16,11 @@ asdf plugin add python 2>/dev/null
 asdf global python 3.12.3
 
 # gradle plugin
-asdf plugin-add gradle https://github.com/rfrancis/asdf-gradle.git
+asdf plugin-add gradle https://github.com/rfrancis/asdf-gradle.git 2>/dev/null
 asdf global gradle 8.8
 
 # pnpm plugin
-asdf plugin add pnpm
+asdf plugin add pnpm 2>/dev/null
 asdf global pnpm 9.2.0
 
 # initialise completions
