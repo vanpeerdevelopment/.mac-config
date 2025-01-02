@@ -20,5 +20,5 @@ export GIT_USER_EMAIL="dieter.vanpeer@vlaanderen.be"
 alias git="git -c user.name=$GIT_USER_NAME -c user.email=$GIT_USER_EMAIL"
 
 ## IOM
-source ~/Projects/digitaal-vlaanderen/iom-developer/cli/profile.sh
+source ~/Projects/digitaal-vlaanderen/iom-tools/cli/profile.sh
 
