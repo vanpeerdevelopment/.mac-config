@@ -13,8 +13,8 @@ asdf global java temurin-21.0.6+7.0.LTS >/dev/null
 
 # node plugin
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git >/dev/null
-asdf install nodejs 20.18.3 >/dev/null
-asdf global nodejs 20.18.3 >/dev/null
+asdf install nodejs 22.14.0 >/dev/null
+asdf global nodejs 22.14.0 >/dev/null
 
 # pnpm plugin
 asdf plugin add pnpm >/dev/null
