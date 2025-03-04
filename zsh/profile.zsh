@@ -1,1 +1,1 @@
-source "$(dirname $0)/../profiles/kunlabora/profile.sh"
+source "$(dirname $0)/../profiles/siemens/profile.sh"
