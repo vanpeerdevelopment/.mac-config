@@ -10,6 +10,7 @@ cask "raycast"
 
 ## Developer tools
 brew "git"
+brew "asdf"
 brew "awscli"
 brew "git-remote-codecommit"
 brew "bitwarden-cli"

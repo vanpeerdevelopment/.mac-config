@@ -6,7 +6,6 @@ Overview of the tools installed on my mac, several terminal profiles and useful 
 - [Install Git](https://git-scm.com/): `brew install git`
 - [Install zsh](http://www.zsh.org/): `brew install zsh`
 - [Install oh-my-zsh](https://ohmyz.sh/)
-- [Install asdf](https://asdf-vm.com/guide/getting-started.html)
 - `git clone --recursive git@github.com:vanpeerdevelopment/.mac-config.git <MAC_CONFIG>`
 
 
