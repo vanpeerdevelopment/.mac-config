@@ -1,7 +1,5 @@
 ## Taps
-tap "homebrew/core"
 tap "homebrew/bundle"
-tap "homebrew/cask"
 
 ## Terminal
 brew "zsh"
@@ -17,6 +15,3 @@ brew "git-remote-codecommit"
 brew "bitwarden-cli"
 cask "aws-vault"
 cask "session-manager-plugin"
-
-## Entertainment
-cask "zwift"
