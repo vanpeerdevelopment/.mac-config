@@ -10,6 +10,8 @@ cask "raycast"
 
 ## Developer tools
 brew "git"
+brew "gpg"
+brew "pinentry-mac"
 brew "asdf"
 brew "awscli"
 brew "git-remote-codecommit"
