@@ -24,6 +24,35 @@ function add-custom-plugin() {
     popd
 }
 
+## gpg
+function gpg-list() {
+  gpg --list-secret-keys --keyid-format=long
+}
+
+function gpg-new() {
+  gpg --full-generate-key
+}
+
+function gpg-public() {
+  local GPG_KEY_ID="${1}"
+
+  gpg --armor --export $GPG_KEY_ID
+}
+
+function gpg-public-clipboard() {
+  local GPG_KEY_ID="${1}"
+
+  gpg-public $GPG_KEY_ID | pbcopy
+}
+
+function gpg-git-config() {
+  local GPG_KEY_ID="${1}"
+
+  git config user.signingkey $GPG_KEY_ID
+  git config commit.gpgsign true
+  git config tag.gpgSign true
+}
+
 ## Docker
 alias docker-rm='docker rm -vf $(docker ps -qa)'
 alias docker-rmi='docker rmi -f $(docker images -qa)'
