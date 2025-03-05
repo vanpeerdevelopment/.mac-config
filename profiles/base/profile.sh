@@ -17,6 +17,13 @@ alias reload-profile='source $CURRENT_PROFILE'
 # General
 alias cls='clear'
 
+## update
+function pull-mac-config() {
+  pushd $MAC_CONFIG_HOME
+  git pull
+  popd
+}
+
 ## oh-my-zsh
 function add-custom-plugin() {
     pushd $MAC_CONFIG_HOME/zsh/plugins
