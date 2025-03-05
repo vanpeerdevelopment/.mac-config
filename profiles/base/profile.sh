@@ -45,9 +45,29 @@ function gpg-public-clipboard() {
   gpg-public $GPG_KEY_ID | pbcopy
 }
 
-function gpg-git-config() {
+function gpg-git-home-config() {
   local GPG_KEY_ID="${1}"
+  local USER_NAME="vanpeerdevelopment"
+  local USER_EMAIL="dieter@vanpeerdevelopment.be"
 
+  gpg-git-config $USER_NAME $USER_EMAIL $GPG_KEY_ID
+}
+
+function gpg-git-kunlabora-config() {
+  local GPG_KEY_ID="${1}"
+  local USER_NAME="dieter-kunlabora"
+  local USER_EMAIL="dieter.vanpeer@kunlabora.be"
+
+  gpg-git-config $USER_NAME $USER_EMAIL $GPG_KEY_ID
+}
+
+function gpg-git-config() {
+  local USER_NAME="${1}"
+  local USER_EMAIL="${2}"
+  local GPG_KEY_ID="${3}"
+
+  git config user.name $USER_NAME
+  git config user.email $USER_EMAIL
   git config user.signingkey $GPG_KEY_ID
   git config commit.gpgsign true
   git config tag.gpgSign true
