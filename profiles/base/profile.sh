@@ -18,9 +18,15 @@ alias reload-profile='source $CURRENT_PROFILE'
 alias cls='clear'
 
 ## update
-function pull-mac-config() {
+function update-mac-config() {
   pushd $MAC_CONFIG_HOME
   git pull
+  popd
+}
+
+function update-brew() {
+  pushd "$MAC_CONFIG_HOME/homebrew"
+  brew bundle
   popd
 }
 
