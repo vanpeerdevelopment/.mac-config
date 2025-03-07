@@ -30,3 +30,8 @@ asdf set --home gradle 8.9 >/dev/null
 asdf plugin add python >/dev/null
 asdf install python 3.13.2 >/dev/null
 asdf set --home python 3.13.2 >/dev/null
+
+# awscli plugin
+asdf plugin add awscli >/dev/null
+asdf install awscli 2.24.19 >/dev/null
+asdf set --home awscli 2.24.19 >/dev/null
