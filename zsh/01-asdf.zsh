@@ -35,3 +35,7 @@ asdf set --home python 3.13.2 >/dev/null
 asdf plugin add awscli >/dev/null
 asdf install awscli 2.24.19 >/dev/null
 asdf set --home awscli 2.24.19 >/dev/null
+
+# terraform plugin
+asdf plugin add terraform >/dev/null
+
