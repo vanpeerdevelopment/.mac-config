@@ -17,6 +17,8 @@ alias reload-profile='source $CURRENT_PROFILE'
 # General
 alias cls='clear'
 
+alias my-ip='ipconfig getifaddr en0'
+
 ## update
 function update-mac-config() {
   pushd $MAC_CONFIG_HOME
