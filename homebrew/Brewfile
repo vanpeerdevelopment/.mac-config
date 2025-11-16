@@ -1,6 +1,3 @@
-## Taps
-tap "homebrew/bundle"
-
 ## Terminal
 brew "zsh"
 brew "bash-completion"
@@ -23,3 +20,8 @@ cask "session-manager-plugin"
 cask "docker-desktop"
 cask "windows-app"
 cask "virtualbox"
+cask "google-chrome"
+cask "imageoptim"
+cask "intellij-idea"
+cask "miro"
+

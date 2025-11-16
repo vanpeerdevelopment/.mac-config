@@ -6,7 +6,7 @@ Overview of the tools installed on my mac, several terminal profiles and useful 
 - [Install Git](https://git-scm.com/): `brew install git`
 - [Install zsh](http://www.zsh.org/): `brew install zsh`
 - [Install oh-my-zsh](https://ohmyz.sh/)
-- `git clone --recursive git@github.com:vanpeerdevelopment/.mac-config.git <MAC_CONFIG>`
+- `git clone --recursive https://github.com/vanpeerdevelopment/.mac-config.git <MAC_CONFIG>`
 
 
 ## Configuration
@@ -34,6 +34,3 @@ Overview of the tools installed on my mac, several terminal profiles and useful 
 - [zsh-completions](https://github.com/zsh-users/zsh-completions)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
-
-#### SSH
-- [Add ssh keys to GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
