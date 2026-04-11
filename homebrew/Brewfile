@@ -25,4 +25,6 @@ cask "google-chrome"
 cask "imageoptim"
 cask "intellij-idea"
 cask "miro"
+cask "claude"
+cask "claude-code"
 
