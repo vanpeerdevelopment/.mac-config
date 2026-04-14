@@ -27,4 +27,5 @@ cask "intellij-idea"
 cask "miro"
 cask "claude"
 cask "claude-code"
+cask "spotify"
 
